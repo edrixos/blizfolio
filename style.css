@@ -1,9 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap");
 * {
-  font-family: "Geo", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+body {
+  font-family: "Geo", sans-serif;
+  padding: 50px;
+}
+
+a {
+  color: black;
+  font-style: italic;
+  text-underline-offset: 2px;
+}
+a:hover {
+  color: cornflowerblue;
 }
 
 h1 {
@@ -14,4 +26,12 @@ h2 {
 }
 h3 {
   font-size: 2rem;
+}
+
+.intro-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
