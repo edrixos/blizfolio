@@ -6,7 +6,7 @@
 }
 body {
   font-family: "Geo", sans-serif;
-  padding: 50px;
+  padding: 20px;
 }
 
 a {
@@ -34,4 +34,13 @@ h3 {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.profile-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.greeting {
+  font-size: 30px;
 }
