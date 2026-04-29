@@ -7,6 +7,14 @@
 body {
   font-family: "Geo", sans-serif;
   padding: 20px;
+  font-weight: 400;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+.basic-text {
+  font-size: 25px;
 }
 
 a {
@@ -15,7 +23,11 @@ a {
   text-underline-offset: 2px;
 }
 a:hover {
-  color: cornflowerblue;
+  color: #691479;
+}
+li {
+  list-style: square;
+  list-style-position: inside;
 }
 
 .intro-box {
@@ -30,8 +42,4 @@ a:hover {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-}
-
-.greeting {
-  font-size: 30px;
 }
